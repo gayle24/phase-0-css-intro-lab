@@ -1,20 +1,29 @@
+@import url(//db.onlinewebfonts.com/c/95cecf452d3208890088a5b4c19c7ecf?family=Helvetica+Neue+ME);
 /* Tag selector to select the 'body' element */
 body {
-  /* Your code here! */
+  /* Your code here! */background-color: #00b3e6 ;
+
 }
 
 /* Tag selector to select all 'div' elements. We only have one 'div' in our HTML */
 div {
   /* Your code here! */
+  width: 700px;
+  padding: 30px;
+  margin: auto;
+  font-family: 'Helvetica Neue', sans serif;
+  background-color: white;
 }
 
 /* ID selector to select the element with id 'main-header' */
 #main-header {
   /* Your code here! */
   color: red;
+  font-size: 22px;
 }
 
 /* Class selector to select elements containing the class 'perspective-questions' */
 .perspective-questions {
   /* Your code here! */
+  font-style: italic;
 }
